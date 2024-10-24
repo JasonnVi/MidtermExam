@@ -1,0 +1,58 @@
+/* Import fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;500&display=swap');
+
+/* Body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d0d0d; /* Minimalist dark theme for gaming vibe */
+  color: #252424; 
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom background */
+body {
+  background-image: url('background.png'); /* Add background image */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Card styling */
+.card {
+  background-color: #1c1c1c; /* Dark background for cards */
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight scale on hover for interaction */
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #18b4b4;
+  border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1fe6e6;
+}
+
+/* Header and footer styling */
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #121212;
+  color: #ff6600;
+}
+
+.card-footer {
+  background-color: #121212;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Allow smooth scroll for interaction */
+html {
+  scroll-behavior: smooth;
+}
